@@ -89,7 +89,8 @@ def extract_frames_from_video(path, output_folder, interval_s=1, delay_s=0.5, re
             overall = (file_index + file_progress) / total_files * 100
             jobs[job_id]['progress'] = round(overall)
             jobs[job_id]['current_file'] = os.path.basename(path)
-            jobs[job_id]['frames_done'] = (file_index * n_frames) + i + 1
+            jobs[job_id]['frames_done'] = jobs[job_id].get('frames_accumulated', 0) + i + 1
+            jobs[job_id]['files_done'] = file_index
 
     video.release()
     stop = time.time()
@@ -113,6 +114,8 @@ def run_extraction(job_id, video_paths, output_folder, interval_s, delay_s, resi
                 total_files=total
             )
             total_frames += n
+            jobs[job_id]['frames_accumulated'] = total_frames
+            jobs[job_id]['files_done'] = idx + 1
 
         jobs[job_id]['status'] = 'done'
         jobs[job_id]['progress'] = 100
@@ -193,3 +196,4 @@ def download(job_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
