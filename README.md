@@ -1,37 +1,36 @@
-# 📷 FrameExtract — Camera Trap Frame Extractor
+# FrameExtract — Camera Trap Frame Extractor
 
-*Extract photos from camera trap videos for easier analysis — Extrayez des photos des vidéos de pièges photos*
+*Extract photos from camera trap videos for easier analysis *
 
 ## English
 
 ### Overview
 
-**FrameExtract** is a specialized tool for extracting individual frames from **camera trap videos** into high-quality images. Camera traps record continuous video footage, but still images are significantly lighter, easier to manage, and ideal for behavioral analysis and data sharing. Extract the key moments from your wildlife monitoring videos and prepare them for platforms like [Agouti.eu](https://www.agouti.eu).
+**FrameExtract** is a specialized tool for extracting individual frames from **camera trap videos** into high-quality images. Camera traps can be used to record continuous video footage, but still images are significantly lighter, easier to manage, and ideal for data sharing. Convert your wildlife monitoring videos into sequences of photos and prepare them for platforms like [Agouti.eu](https://www.agouti.eu).
 
 **Why extract frames from camera trap videos?**
-- 📊 **Lighter files** — Individual photos are much smaller than video files, making them easier to store and share
-- 🎯 **Better analysis** — Focus on specific behavioral moments without video playback
-- 🌐 **Platform compatibility** — Easily upload extracted images to wildlife monitoring platforms like Agouti.eu
-- ⚡ **Efficient cataloging** — Rename, tag, and organize individual frames for ecological surveys
-- 💾 **Data preservation** — Extract and preserve important sightings from long video sequences
+-  **Lighter files** — Individual photos are much smaller than video files, making them easier to store and share
+-  **Better analysis** — Focus on specific behavioral moments without video playback
+-  **Platform compatibility** — Easily upload extracted images to camera trap monitoring platforms like Agouti.eu
+-  **Efficient cataloging** — Rename, tag, and organize individual frames for ecological surveys
+-  **Data preservation** — Extract and preserve important sightings from long video sequences
 
 Perfect for:
 - Wildlife monitoring and ecological surveys
 - Camera trap data processing and management
-- Extracting behavioral moments from continuous video monitoring
 - Preparing camera trap images for Agouti.eu and similar data platforms
 
 ### Features
 
-✨ **Automatic Frame Extraction** — Extract frames from your camera trap videos (MP4, MOV, AVI)
-⚡ **Real-time Progress Tracking** — Monitor extraction progress with live statistics
-🎨 **Modern UI** — Beautiful, responsive interface designed for wildlife researchers
-🌍 **Bilingual** — Full French/English language support with instant switching
-⚙️ **Customizable Extraction** — Control extraction interval, start delay, and image size
-📦 **Batch Processing** — Process multiple camera trap videos at once
-📥 **Download as ZIP** — Get all extracted frames in a single ZIP file for easy sharing
-🖼️ **EXIF Metadata** — Automatically preserves timestamp information in extracted images
-🐾 **Wildlife-Ready** — Images prepared for platforms like Agouti.eu
+ **Automatic Frame Extraction** — Extract frames from your camera trap videos (MP4, MOV, AVI)
+ **Real-time Progress Tracking** — Monitor extraction progress with live statistics
+ **Modern UI** — Beautiful, responsive interface designed for wildlife researchers
+ **Bilingual** — Full French/English language support with instant switching
+ **Customizable Extraction** — Control extraction interval, start delay, and image size
+ **Batch Processing** — Process multiple camera trap videos at once
+ **Download as ZIP** — Get all extracted frames in a single ZIP file for easy sharing
+ **EXIF Metadata** — Automatically preserves timestamp information in extracted images
+ **Wildlife-Ready** — Images prepared for platforms like Agouti.eu
 
 ### Quick Start
 
